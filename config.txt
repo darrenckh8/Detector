@@ -1,0 +1,5 @@
+USB CDC on Boot: "Enabled"
+Flash Size: "16MB (128Mb)"
+Partition Scheme: "Custom"
+
+Erase All Flash Before Sketch Upload: "Enabled" // TO FIX PARTITION ERRORS ONLY
