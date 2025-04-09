@@ -81,6 +81,13 @@ The `APP/creds.h` file should define the Wi-Fi and InfluxDB credentials required
 
 Ensure you replace the placeholder values with your actual credentials before uploading the project to the ESP32.
 
+## Visualization with Grafana
+
+- The data logged to InfluxDB can be visualized using Grafana.
+- Set up a Grafana dashboard and connect it to your InfluxDB instance.
+- Create panels to display detection results, such as the number of metal and non-metal objects detected over time.
+- Use Grafana's query builder to customize the visualization to your needs.
+
 ## Notes
 
 - The `APP/creds.h` file and audio files in `APP/data/` are excluded from version control for security and storage reasons.
