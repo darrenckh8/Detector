@@ -58,6 +58,29 @@ This project is an Arduino-based system designed to detect objects and classify 
 - **Volume Control**:
   - Send a serial command in the format `volume <value>` to adjust the playback volume (0-100).
 
+## Template for `APP/creds.h`
+
+The `APP/creds.h` file should define the Wi-Fi and InfluxDB credentials required for the project. Below is the template format:
+
+```cpp
+#ifndef CREDS_H
+#define CREDS_H
+
+// Wi-Fi credentials
+#define WIFI_SSID "YourWiFiSSID"
+#define WIFI_PASSWORD "YourWiFiPassword"
+
+// InfluxDB credentials
+#define INFLUXDB_URL "http://your-influxdb-url.com"
+#define INFLUXDB_ORG "YourOrganization"
+#define INFLUXDB_BUCKET "YourBucket"
+#define INFLUXDB_TOKEN "YourAuthToken"
+
+#endif // CREDS_H
+```
+
+Ensure you replace the placeholder values with your actual credentials before uploading the project to the ESP32.
+
 ## Notes
 
 - The `APP/creds.h` file and audio files in `APP/data/` are excluded from version control for security and storage reasons.
