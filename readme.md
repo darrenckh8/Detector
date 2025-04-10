@@ -88,6 +88,12 @@ Ensure you replace the placeholder values with your actual credentials before up
 - Create panels to display detection results, such as the number of metal and non-metal objects detected over time.
 - Use Grafana's query builder to customize the visualization to your needs.
 
+### Example Dashboard
+
+Below is an example of a Grafana dashboard displaying detection results:
+
+![Example Grafana Dashboard](img/dashboard.png)
+
 ## Notes
 
 - The `APP/creds.h` file and audio files in `APP/data/` are excluded from version control for security and storage reasons.
